@@ -3,7 +3,7 @@
 A lightweight Python automation script that scans the screen for a specific color and moves the mouse across matching areas in real time.
 
 The reason for this project was I was curious if I could make a script to automate, as lame as it sounds, a coloring game.
-The color it searches for is easily altered by changing the hexidecimal code to match the target color.
+The color it searches for is easily altered by changing the RGB code to match the target color.
 While not perfect it works quite well for something built in about a week
 
 This project was built as a small personal experiment in:
