@@ -31,12 +31,15 @@ This project was built as a small personal experiment in:
 2. Scans it in a grid pattern  
 3. Checks each grid cell for a target color  
 4. Moves the mouse to matching locations  
-5. Repeats continuously as new pixels appear  
+5. Repeats continuously as new pixels appear
+6. If no new pixels appear, move to a random white pixel and right-click to make new green boxes appear  
 
 The script is tuned to:
 - avoid skipping boxes
 - compensate for imperfect alignment
 - balance speed vs reliability
+
+The limiting factor for reliability is the TOUCH_DELAY variable. If you slow it down, it will hit more, or even all, of the green boxes on the first pass.
 
 ---
 
